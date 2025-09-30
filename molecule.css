@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+.table-container {
+    max-width: 64rem; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem; 
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+        
+th, td {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+thead {
+    background: linear-gradient(to right, #84b549, #e8b827);
+    color: #ffffff;
+}
+
+th {
+    padding: 0.75rem 1.5rem;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+td {
+    padding: 1rem 1.5rem;
+    white-space: nowrap; 
+    font-size: 0.875rem;
+    color: #4b5563; 
+}
+        
+td:first-child {
+    font-weight: 500;
+    color: #111827;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tbody tr:hover {
+    background-color: #e5e7eb; 
+}
+
+.imageCardContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.imageCard {
+    padding: 20px;
+}
+
+.mcImage {
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 5px solid black; 
+    width: 403px;
+    height: 302px;
+}
+
+.mcImage:hover {
+    transform: scale(1.4); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
