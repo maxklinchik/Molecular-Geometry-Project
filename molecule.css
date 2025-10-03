@@ -45,14 +45,10 @@ tbody tr {
 
 td {
     padding: 1rem 1.5rem;
+    font-weight: 500;
     white-space: nowrap; 
     font-size: 0.875rem;
     color: #4b5563; 
-}
-        
-td:first-child {
-    font-weight: 500;
-    color: #111827;
 }
 
 tbody tr:nth-child(even) {
@@ -86,4 +82,27 @@ tbody tr:hover {
 .mcImage:hover {
     transform: scale(1.4); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#homeButton {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    background-color: lightblue; 
+    padding: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #838383;
+    color: #fff;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#titleText {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    height: 61px;
 }

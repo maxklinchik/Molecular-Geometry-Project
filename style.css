@@ -6,7 +6,8 @@ body {
 
 #title {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background: linear-gradient(to right, #84b549, #e8b827);
     padding-left: 60px;
     height: 300px;
@@ -16,6 +17,13 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 800;
+    height: 20px;
+}
+
+#titleNames {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #cardContainer {
@@ -54,18 +62,3 @@ body {
 .moleculeButton:hover {
     background-color: #6a6a6a;
 }
-
-/* .homeButton {
-    width: 45px;
-    padding: 10px;
-    background-color: #838383;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.homeButton:hover {
-    background-color: #6a6a6a;
-} */
